@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Contador de vides</string>
+    <string name="p1minus">p1minus</string>
+    <string name="p1plus">p1plus</string>
+    <string name="p2plus">p2plus</string>
+    <string name="p2minus">p2minus</string>
+    <string name="arrowUp">arrowUp</string>
+    <string name="arrowDown">arrowDown</string>
+    <string name="h1plus">h1plus</string>
+    <string name="h1minus">h1minus</string>
+    <string name="h2plus">h2plus</string>
+    <string name="h2minus">h2minus</string>
+    <string name="contador1">contador1</string>
+    <string name="contador2">contador2</string>
+</resources>
