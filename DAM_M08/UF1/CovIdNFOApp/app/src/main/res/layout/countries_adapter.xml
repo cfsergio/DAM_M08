@@ -25,8 +25,10 @@
         android:id="@+id/ivFlag"
         android:layout_width="80dp"
         android:layout_height="55dp"
+        android:layout_marginStart="20dp"
         android:padding="5dp"
-        tools:layout_editor_absoluteX="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/tvCountryName"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="37dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

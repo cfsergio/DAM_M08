@@ -149,7 +149,7 @@ public class CountryFragment extends Fragment {
      */
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
         super.onCreateOptionsMenu(menu, inflater);
-        inflater.inflate(R.menu.menu_cartas, menu);
+        inflater.inflate(R.menu.menu_countries, menu);
     }
 
     @Override

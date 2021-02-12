@@ -15,7 +15,7 @@ public class CountriesViewModel extends AndroidViewModel {
     private final Application app;
     private final AppDatabase appDatabase;
     private final CountryDAO countryDao;
-    private LiveData<List<Country>> cartas;
+    private LiveData<List<Country>> countries;
 
     public CountriesViewModel(Application application) {
         super(application);
@@ -25,7 +25,7 @@ public class CountriesViewModel extends AndroidViewModel {
         this.countryDao = appDatabase.getCountryDAO();
     }
 
-    public LiveData<List<Country>> getCartas() {
+    public LiveData<List<Country>> getCountries() {
         return countryDao.getCountries();
     }
 
